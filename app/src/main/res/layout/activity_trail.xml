@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--線索一-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout1">
+
+        <TextView
+            android:id="@+id/number1"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/number1"
+            android:theme="@style/storeTextView" />
+
+        <TextView
+            android:id="@+id/trail1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/trail1"
+            android:theme="@style/storeTextView" />
+
+    </LinearLayout>
+
+    <!--線索二-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout2"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/number2"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/number2"
+            android:theme="@style/storeTextView" />
+
+        <TextView
+            android:id="@+id/trail2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/trail2"
+            android:theme="@style/storeTextView" />
+
+    </LinearLayout>
+
+    <!--線索三-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout3"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/number3"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/number3"
+            android:theme="@style/storeTextView" />
+
+        <TextView
+            android:id="@+id/trail3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/trail3"
+            android:theme="@style/storeTextView" />
+    </LinearLayout>
+
+    <!--線索四-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout4"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/number4"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/number4"
+            android:theme="@style/storeTextView" />
+
+        <TextView
+            android:id="@+id/trail4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/trail4"
+            android:theme="@style/storeTextView" />
+
+    </LinearLayout>
+
+    <!--線索五-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout5"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/linearLayout4"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/number5"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/number5"
+            android:theme="@style/storeTextView" />
+
+        <TextView
+            android:id="@+id/trail5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/trail5"
+            android:theme="@style/storeTextView" />
+    </LinearLayout>
+
+    <!--線索六-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout6"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/linearLayout5"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/number6"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/number6"
+            android:theme="@style/storeTextView" />
+
+        <TextView
+            android:id="@+id/trail6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/trail6"
+            android:theme="@style/storeTextView" />
+
+    </LinearLayout>
+
+    <!--互動區-->
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linearLayout6"
+        android:layout_alignParentStart="true">
+
+
+
+        <TextView
+            android:id="@+id/trail7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/trail7"
+            android:gravity="left"
+            android:theme="@style/storeTextView" />
+
+    </LinearLayout>
+
+</RelativeLayout>

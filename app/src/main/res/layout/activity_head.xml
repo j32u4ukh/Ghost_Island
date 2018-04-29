@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--基本資料-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textViewBasicInformation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/BasicInformation"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textFB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4.10"
+                    android:text="@string/textFB"
+                    android:textSize="20sp"
+                    android:theme="@style/HeadActivity" />
+
+                <EditText
+                    android:id="@+id/editFB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewGender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="47dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/textViewGender"
+                    android:textColor="#303F9F"
+                    android:textSize="20sp" />
+
+                <RadioGroup
+                    android:id="@+id/groupGender"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/Gender0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:text="@string/Gender0" />
+
+                    <RadioButton
+                        android:id="@+id/Gender1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:text="@string/Gender1" />
+
+                    <RadioButton
+                        android:id="@+id/Gender2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:text="@string/Gender2" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textAge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textAge"
+                    android:textSize="20sp"
+                    android:theme="@style/HeadActivity" />
+
+                <EditText
+                    android:id="@+id/editAge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textViewPastSituation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/PastSituation"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/textViewTimes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/textViewTimes"
+                        android:theme="@style/HeadActivity" />
+
+                    <TextView
+                        android:id="@+id/textViewMoney"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/textViewMoney"
+                        android:theme="@style/HeadActivity" />
+
+                    <TextView
+                        android:id="@+id/textViewPartner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/textViewPartner"
+                        android:theme="@style/HeadActivity" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textViewStore1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/textViewStore1"
+                        android:theme="@style/HeadActivity" />
+
+                    <EditText
+                        android:id="@+id/editTextTimes1"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:ems="7"
+                        android:inputType="number" />
+
+                    <EditText
+                        android:id="@+id/editTextMoney1"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:ems="5"
+                        android:inputType="number" />
+
+                    <ToggleButton
+                        android:id="@+id/toggleButton1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textOff="@string/textViewPartner0"
+                        android:textOn="@string/textViewPartner1" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <Button
+                android:id="@+id/headButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/head_button"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!--空格-->
+
+    <!--過去消費情形調查-->
+
+</LinearLayout>

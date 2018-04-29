@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">Ghost_Island</string>
+    <string name="get_qrcode">get_qrcode</string>
+
+    <!-- HeadActivity -->
+    <string name="BasicInformation">基本資料</string>
+    <string name="textFB">FB名稱：</string>
+    <string name="textViewGender">性別：</string>
+    <string name="Gender0">女性</string>
+    <string name="Gender1">男性</string>
+    <string name="Gender2">其他</string>
+    <string name="textAge">年齡：</string>
+    <string name="PastSituation">過去消費情形調查</string>
+    <string name="textViewStore1">怡蘭扁食</string>
+    <string name="textViewTimes">累積次數</string>
+    <string name="textViewMoney">平均花費</string>
+    <string name="textViewPartner">消費同伴</string>
+    <string name="textViewPartner0">無</string>
+    <string name="textViewPartner1">有</string>
+    <string name="head_button">完成輸入</string>
+
+    <!-- MainActivity -->
+    <!-- 店家資訊 -->
+    <string name="storeInformation1">怡蘭扁食\n位置：新北市三峽區國學街86號\n(位於側門出去後的左手邊)\n營業時間：\n星期一~星期日 11:00~21:00</string>
+    <!-- 功能 -->
+    <string name="trails">線索</string>
+    <string name="send">寄信</string>
+    <!-- 互動 -->
+    <string name="interactive00">((累積消費：%1$d次，共花費：%2$d元))\n</string>
+    <string name="interactive01">謝謝各位參與這次實驗~\n本來找了4家合作店家，結果有3家在暑假前和學校解約了(冏)\n店家數量只剩1家，真的很抱歉(๑•́ ₃ •̀๑)\n為了不讓各位覺得太無聊，這區將在每次消費後和大家互動~</string>
+    <string name="interactive02" formatted="false">請問：「**是由1%的**和99%的****所產生的」，**分別應該填入什麼？~థ౪థ</string>
+    <string name="interactive03">剛成為護士的南丁格爾表示***</string>
+    <string name="interactive04">請問：想睡的時候如何提起精神？</string>
+    <string name="interactive05">請問：類似Please help me的句子？</string>
+    <string name="interactive06">多拉A夢：這個道具可以讓房間內的垃圾瞬間消失喔。</string>
+    <string name="interactive07">用一句話讓捷運鄰座的女生感到噁心。</string>
+    <string name="interactive08">老師：6個人1組\n學生：但是我們班有31個人耶。</string>
+    <string name="interactive09">小夫：我們家昨天去看了最新的電影喔。</string>
+    <string name="interactive10">是說~因為6個線索出現機率都一樣，所以平均而言需要14.7次才能蒐集完全部線索，你蒐集完了嗎~:)</string>
+    <string name="interactive11">女兒：馬麻馬麻~廚房那邊有害蟲。</string>
+    <string name="interactive12">你好，我是今天的執刀醫生強森థ౪థ</string>
+    <string name="interactive13">小夫：這是最新的遙控飛機~厲害吧~大雄一定沒有對吧~</string>
+    <string name="interactive14">請用不傷人的方法來表達你這個胖子。</string>
+    <string name="interactive15">家屬：醫生！手術結果怎麼樣了？</string>
+    <string name="interactive16">既然你看到這句了~</string>
+    <string name="interactive17">醫生：有好消息和壞消息，你想先聽哪一個？\n病人：壞消息是？\n醫生：你大概活不久了。\n病人：好消息是？</string>
+    <string name="interactive18">老師：大雄，怎麼考得這麼差？你上課都在幹嘛？\n大雄：在走廊罰站阿╮(╯_╰)╭</string>
+    <string name="interactive19">客人：請給我馬鈴薯、紅蘿蔔和洋蔥。</string>
+    <string name="interactive20">請問：如果所有人都變得像大雄的話，會發生什麼事？</string>
+    <string name="interactive21">胖虎：人家不都說如果有喜歡的人的話，通常都會故意欺負她，想要吸引他嗎？</string>
+    <string name="interactive22">男學生：後頸色色的\n家長會：禁止馬尾！\n男學生：胸罩色色的。\n家長會：禁止胸罩！\n男學生：不穿胸罩超讚！\n家長會：不管怎樣你們都會發情是吧、、、好吧！那就男女分校吧！</string>
+    <string name="interactive23">放學後的第2間女生廁所\n如果「叩叩」的敲個兩下\n再慢慢往上看的話、、、</string>
+    <string name="interactive24">柯南：搞不好是灰原你也說不定、、、</string>
+    <string name="interactive25">上司：你看了幾次哥吉拉？\n員工：看了5次喔。\n上司：總共花了多少？\n員工：花了9000元喔。\n上司：你想想看，有9000元可以幹嘛？</string>
+    <string name="interactive26">長老：進入這個洞穴的人，到現在還沒有一個回來、、、</string>
+    <string name="interactive27">魔王：科科、、、看看這個水晶球吧。你真的有辦法保護人間嗎？\n勇者：！這是我故鄉的村子！武器店的大叔和魚店的老闆、賣花的那個女孩、、、難、難道是！住手阿！</string>
+    <string name="interactive28">靜香：我今天一整天都要待在家裡。\n大雄：為什麼？難得今天天氣這麼好。</string>
+    <string name="interactive30">妳/你真的是本遊戲的忠實玩家呀~\n本次消費後妳/你將看到我們送你的禮物\n</string>
+
+    <string name="ANS01">互動內容大部份來自「我笑故我在」，值得期待喔:)</string>
+    <string name="ANS02" formatted="false">禿頭是由1%的毛髮和99%的自由空間所產生的。థ౪థ</string>
+    <string name="ANS03">剛成為護士的南丁格爾表示：我可沒聽說要值大夜班！</string>
+    <string name="ANS04">請問：想睡的時候如何提起精神？\n閉上眼睛、稍等8小時。</string>
+    <string name="ANS05">請問：類似Please help me的句子？\n嗚阿阿阿阿、多拉A夢~！</string>
+    <string name="ANS06">多拉A夢：這個道具可以讓房間內的垃圾瞬間消失喔。\n大雄：喔！好厲ㄏ、、、</string>
+    <string name="ANS07">用一句話讓捷運鄰座的女生感到噁心。\n咦？你換洗髮精了嗎？</string>
+    <string name="ANS08">老師：6個人1組\n學生：但是我們班有31個人耶。\n老師：大雄，去走廊罰站！</string>
+    <string name="ANS09">小夫：我們家昨天去看了最新的電影喔。\n靜香：不要在小杉面前提到電影這2個字啦！</string>
+    <string name="ANS10">每個線索出現的機率都是一樣的，所以可能會重複出現，請耐心蒐集喔:)</string>
+    <string name="ANS11">女兒：馬麻馬麻~廚房那邊有害蟲。\n馬麻：不可以這樣叫你把拔喔。</string>
+    <string name="ANS12">你好，我是今天的執刀醫生強森థ౪థ\n沒錯~就是小學每天被你霸凌的那個強森！</string>
+    <string name="ANS13">小夫：這是最新的遙控飛機~厲害吧~大雄一定沒有對吧~\n大雄：隨便啦~反正我有這個時代最好的機器貓。</string>
+    <string name="ANS14">請用不傷人的方法來表達你這個胖子。\n我的眼中只有你。</string>
+    <string name="ANS15">家屬：醫生！手術結果怎麼樣了？\n醫師：重要的不是結果而是努力的過程，你說是嗎：)</string>
+    <string name="ANS16">既然你看到這句了~那就表示你還沒蒐集完囉XD</string>
+    <string name="ANS17">醫生：有好消息和壞消息，你想先聽哪一個？\n病人：壞消息是？\n醫生：你大概活不久了。\n病人：好消息是？\n醫生：保險公司會理賠喔。</string>
+    <string name="ANS18">老師：大雄，怎麼考得這麼差？你上課都在幹嘛？\n大雄：在走廊罰站阿╮(╯_╰)╭\n老師：上課不上課在幹嘛？給我去走廊罰站。</string>
+    <string name="ANS19">客人：請給我馬鈴薯、紅蘿蔔和洋蔥。\n店員：您是不是要煮：咖哩？</string>
+    <string name="ANS20">請問：如果所有人都變得像大雄的話，會發生什麼事？\n走廊會不夠。</string>
+    <string name="ANS21">胖虎：人家不都說如果有喜歡的人的話，通常都會故意欺負她，想要吸引他嗎？\n大雄：你這樣說我現在很害怕你知道嗎？</string>
+    <string name="ANS22">男學生：後頸色色的\n家長會：禁止馬尾！\n男學生：胸罩色色的\n家長會：禁止胸罩！\n男學生：不穿胸罩超讚！\n家長會：不管怎樣你們都會發情是吧、、、好吧！那就男女分校吧！\n男學生：旁邊的男生好可愛喔。</string>
+    <string name="ANS23">放學後的第2間女生廁所\n如果「叩叩」的敲個兩下\n再慢慢往上看的話、、、\n會看到上面出現「2HIT」、、、</string>
+    <string name="ANS24">柯南：搞不好是灰原你也說不定、、、\n開始把所到之處屍橫遍野的錯怪到別人身上。</string>
+    <string name="ANS25">上司：你看了幾次哥吉拉？\n員工：看了5次喔。\n上司：總共花了多少？\n員工：花了9000元喔。\n上司：你想想看，有9000元可以幹嘛？\n員工：可以看5次哥吉拉\n上司A：？？\n上司B：？？\n上司C：？？\n上司D：？？\n員工：？？</string>
+    <string name="ANS26">長老：進入這個洞穴的人，到現在還沒有一個回來、、、\n超級樂觀的勇者：會不會是因為裡面超Happy的啊！？</string>
+    <string name="ANS27">魔王：科科、、、看看這個水晶球吧。你真的有辦法保護人間嗎？\n勇者：！這是我故鄉的村子！武器店的大叔和魚店的老闆、賣花的那個女孩、、、難、難道是！住手阿！\n魔王：科科、、、你就待在那邊給我乖乖地看好了！出來吧！大型瞎拚莫！\n勇者：個體事業戶的各位阿---！嗚哇阿阿---！</string>
+    <string name="ANS28">靜香：我今天一整天都要待在家裡。\n大雄：為什麼？難得今天天氣這麼好。\n靜香：因為、、、你在外面不是嗎？</string>
+    <string name="ANS30" formatted="false">妳/你真的是本遊戲的忠實玩家呀~\n看到這句的所有人可以共享總金額的20%喔~~</string>
+
+    <!-- Cost -->
+    <string name="money">金額：</string>
+    <string name="hint">(請輸入金額)</string>
+    <string name="cancel">取消</string>
+    <string name="enter">確認</string>
+
+    <!-- Trail -->
+    <!-- 解謎線索 -->
+    <string name="trail">未獲得線索</string>
+    <string name="number1">01.</string>
+    <string name="number2">02.</string>
+    <string name="number3">03.</string>
+    <string name="number4">04.</string>
+    <string name="number5">05.</string>
+    <string name="number6">06.</string>
+    <!-- 解謎線索內容 -->
+    <string name="trail1">62.7443E , 24.945437N</string>
+    <string name="trail2">180E , 24.945437N</string>
+    <string name="trail3">121.372150E , 23.5N</string>
+    <string name="trail4">121.372150E , 26.390874N</string>
+    <string name="trail5">One Piece</string>
+    <string name="trail6">818</string>
+    <string name="trail7">互動區</string>
+
+</resources>
